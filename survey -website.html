@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Youth & Global Economy Survey</title>
+  <link rel="stylesheet" href="popify.css">
+</head>
+<body>
+
+<div class="container">
+  <h1 id="title">How Can Youth Improve the Global Economy?</h1>
+  <p id="description">
+    Thank you for showing interest and helping us with your guidance.
+  </p>
+
+  <form id="survey-form">
+
+    <div class="input-group">
+      <label for="name">Name</label>
+      <input id="name" type="text" placeholder="Enter your name" required>
+    </div>
+
+    <div class="input-group">
+      <label for="email">Email</label>
+      <input id="email" type="email" placeholder="Enter your email" required>
+    </div>
+
+    <div class="input-group">
+      <label for="number">Age</label>
+      <input id="number" type="number" min="5" max="100" placeholder="Enter your age" required>
+    </div>
+
+    <div class="input-group">
+      <label>1) Name of your residential continent:</label>
+      <select id="dropdown">
+        <option>Africa</option>
+        <option>Antarctica</option>
+        <option>Asia</option>
+        <option>Australia</option>
+        <option>Europe</option>
+        <option>North America</option>
+        <option>South America</option>
+      </select>
+    </div>
+
+    <div class="input-group">
+      <label>2) Should global growth be synchronized?</label>
+      <label class="option">
+        <input type="radio" name="growth" value="yes"> Yes
+      </label>
+      <label class="option">
+        <input type="radio" name="growth" value="no"> No
+      </label>
+    </div>
+
+    <div class="input-group">
+      <label>3) Should young leaders be given more opportunity?</label>
+      <label class="option">
+        <input type="checkbox" name="leaders" value="definitely"> Definitely
+      </label>
+      <label class="option">
+        <input type="checkbox" name="leaders" value="experience">
+        Yes, with minimum 5 years experience
+      </label>
+      <label class="option">
+        <input type="checkbox" name="leaders" value="no">
+        No, senior leaders only
+      </label>
+    </div>
+
+    <div class="input-group">
+      <label>Your opinion</label>
+      <textarea rows="4" placeholder="Write your thoughts here..."></textarea>
+    </div>
+
+    <button type="submit">Submit</button>
+
+  </form>
+</div>
+
+</body>
+</html>
